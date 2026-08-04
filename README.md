@@ -1,4 +1,4 @@
-﻿# Pilar Caicedo - Landing
+# Pilar Caicedo - Landing
 
 Landing page personal de Maria del Pilar Caicedo Viveros, Ingeniera Industrial.
 
