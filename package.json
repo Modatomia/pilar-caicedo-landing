@@ -1,0 +1,10 @@
+﻿{
+  "name": "pilar-caicedo-landing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing page personal de Pilar Caicedo",
+  "scripts": {
+    "start": "npx --yes serve . -l 3000",
+    "dev": "npx --yes serve . -l 3000"
+  }
+}
