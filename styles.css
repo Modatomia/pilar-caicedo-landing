@@ -159,6 +159,7 @@ body.has-custom-cursor .cursor-dot { display: block; }
   position: relative;
   padding: 128px 32px 60px;
   overflow: hidden;
+  background: #050505;
 }
 .hero-bg {
   position: absolute;
@@ -168,30 +169,25 @@ body.has-custom-cursor .cursor-dot { display: block; }
   pointer-events: none;
 }
 .hero-grid-lines {
-  position: absolute;
-  inset: 0;
-  background-image:
-    linear-gradient(rgba(26, 188, 156, .14) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(26, 188, 156, .14) 1px, transparent 1px);
-  background-size: 64px 64px;
-  mask-image: radial-gradient(ellipse 85% 75% at 50% 28%, black 0%, transparent 78%);
-  -webkit-mask-image: radial-gradient(ellipse 85% 75% at 50% 28%, black 0%, transparent 78%);
+  display: none;
 }
 .blob-a {
+  display: none;
   position: absolute;
   width: 620px; height: 620px;
   border-radius: 50%;
   top: -220px; right: -160px;
-  background: radial-gradient(circle, rgba(26, 188, 156, .15), transparent 70%);
+  background: radial-gradient(circle, rgba(26, 188, 156, .08), transparent 70%);
   filter: blur(14px);
   animation: driftA 22s ease-in-out infinite;
 }
 .blob-b {
+  display: none;
   position: absolute;
   width: 520px; height: 520px;
   border-radius: 50%;
   bottom: -220px; left: -140px;
-  background: radial-gradient(circle, rgba(79, 140, 219, .09), transparent 70%);
+  background: radial-gradient(circle, rgba(79, 140, 219, .05), transparent 70%);
   filter: blur(14px);
   animation: driftB 26s ease-in-out infinite;
 }
@@ -255,8 +251,8 @@ body.has-custom-cursor .cursor-dot { display: block; }
   width: 100%;
   aspect-ratio: 7 / 9;
   position: relative;
-  mask-image: radial-gradient(ellipse 88% 92% at 50% 42%, black 58%, transparent 100%);
-  -webkit-mask-image: radial-gradient(ellipse 88% 92% at 50% 42%, black 58%, transparent 100%);
+  mask-image: radial-gradient(ellipse 92% 96% at 50% 42%, black 52%, transparent 100%);
+  -webkit-mask-image: radial-gradient(ellipse 92% 96% at 50% 42%, black 52%, transparent 100%);
   overflow: hidden;
 }
 .portrait-mask img {
